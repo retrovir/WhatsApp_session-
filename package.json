@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-session-generator",
+  "version": "1.0.0",
+  "description": "WhatsApp Pairing Code Session Generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.19.2",
+    "pino": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
