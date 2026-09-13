@@ -1,17 +1,5 @@
-user:
-  name: "ishikki"
-  github: "retrovir"
-
-runtime:
-  image: "node:18"
-
-commands:
-  package: ""
-  build:
-    - "npm install"
-  start: "npm start"
-
-repository:
-  branch: "main"
-  auto_deploy: true
-  
+name: wa-session-generator
+runtime: node
+build: npm install
+start: npm start
+port: 3000
