@@ -3,10 +3,10 @@ user:
   github: "retrovir"
 
 runtime:
-  image: "node:18"
+  image: "python:3.11-slim"
 
 commands:
-  package: ""
+  package: "nodejs npm"
   build:
     - "npm install"
   start: "node index.js"
