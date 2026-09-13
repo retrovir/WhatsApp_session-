@@ -1,9 +1,9 @@
 user:
-  name: "retro"
+  name: "ishikki"
   github: "retrovir"
 
 runtime:
-  image: "node:18-slim"
+  image: "node:18"
 
 commands:
   package: ""
@@ -14,3 +14,4 @@ commands:
 repository:
   branch: "main"
   auto_deploy: true
+  
