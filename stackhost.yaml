@@ -1,16 +1,24 @@
+# StackHost configuration file
+
+# Version: 2.0.0
+
 user:
   name: "retrovir"
   github: "retrovir"
 
 runtime:
-  image: "python:3.11-slim"
+  image: "node:22"
 
 commands:
-  package: "nodejs npm"
+  package: "" 
   build:
     - "npm install"
-  start: "node index.js"
+  start: "npm start"
 
 repository:
   branch: "main"
   auto_deploy: true
+
+env:
+  - PORT:3000
+  
