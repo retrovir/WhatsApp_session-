@@ -1,0 +1,16 @@
+user:
+  name: "retro"
+  github: "retrovir"
+
+runtime:
+  image: "node:18-slim"
+
+commands:
+  package: ""
+  build:
+    - "npm install"
+  start: "npm start"
+
+repository:
+  branch: "main"
+  auto_deploy: true
